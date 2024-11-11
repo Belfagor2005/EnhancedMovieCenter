@@ -24,7 +24,7 @@ from Screens.InfoBarGenerics import *
 from Screens.MessageBox import MessageBox
 from Tools.BoundFunction import boundFunction
 from Tools.Directories import fileExists, resolveFilename, SCOPE_PLUGINS
-
+from Tools import Notifications
 from . import _
 from .EMCTasker import emcDebugOut
 from .DelayedFunction import DelayedFunction
